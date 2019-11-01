@@ -1,0 +1,41 @@
+* {
+  font-family: Arial;
+}
+
+.river {
+  float: left;
+  width: 700px;
+  height: 700px;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+.center{
+  padding-top: 200px;
+  padding-left: 150px;
+  float: left;
+}
+
+.underline{
+  width: 50px;
+  border-bottom: 5px solid #66CA97;
+}
+
+.logo{
+  width: 296.4px;
+  height: 109.05px;
+}
+
+.right{
+  padding-left: 100px;
+  float: right;
+}
+
+.bottom{
+  padding-top: 570px;
+  float: center;
+}
+
+.login{
+  width: 225px;
+  height: 40px;
+}
