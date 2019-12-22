@@ -1,0 +1,353 @@
+body{
+  background-image: url("BG.jpg");
+  background-size: cover;
+  background-color: #00918e;
+  font-family: calibri;
+}
+
+a{
+  font-size: 17px;
+}
+
+ul {
+  list-style-type: none;
+  position: center;
+  margin: 0px -10px;
+  padding: 0;
+  height: 50px;
+  width: 800px;
+  padding-left: 44%;
+  overflow: hidden;
+  background-color: #2CDAB1;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+  background-color: #23a68c;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#logo{
+  position:absolute;
+  top: -58px;
+  left: -6%;
+  width: 20%;
+  height: 200px;
+}
+
+img {
+  margin: 0px 180px;
+  height: 350px;
+  width:1000px;
+}
+
+#header{
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: calibri;
+  background-color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: -25px 180px;
+  height: 500px;
+  width: 700px;
+}
+
+#copyright{
+  color: white;
+  list-style-type: none;
+  position: center;
+  margin: 0px -10px;
+  padding-top: 20px;
+  height: 30px;
+  width: 800px;
+  padding-left: 44%;
+  overflow: hidden;
+  background-color: #2CDAB1;
+}
+
+#info{
+  float: left;
+}
+
+#secretariat{
+  float: left;
+  padding-left: 60px;
+}
+
+#send{
+  width: 225px;
+  height: 40px;
+}
+
+#thanks{
+  font-size: 50px;
+}
+
+#gif{
+  width: 310px;
+  height: 220px;
+  margin: 0px;
+  padding-left: 90px;
+}
+
+#gif2{
+  padding-left: 200px;
+  width: 310px;
+  height: 310px;
+  margin: 0px;
+}
+
+#gif3{
+  padding-left: 200px;
+  width: 380px;
+  height: 310px;
+  margin: 0px;
+}
+
+#speaker1{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px;
+  clear: both;
+}
+
+#s1{
+  float: left;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+#speaker2{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px;
+  clear: both;
+}
+
+#s2{
+  float: left;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+#speaker3{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px;
+  clear: both;
+}
+
+#s3{
+  float: left;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+#speaker4{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px;
+  clear: both;
+}
+
+#s4{
+  float: left;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+
+#time{
+  float: right;
+  background-color: yellow;
+}
+
+#clock{
+  float: right;
+}
+
+/*Slideshow Homepage*/
+/* Size & position of slideshow*/
+.slideshow-container{
+  margin-bottom: 1.6%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: 10%;
+  color: white;
+  padding-left: 10%;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+/*Accodion Parallel Session and Conference Fee*/
+.accordion {
+  background-color: #eee;
+  color: #000;
+  font-family:calibri;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-family:calibri;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*Chat window*/
+.open-button {
+  background-color: #800000;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

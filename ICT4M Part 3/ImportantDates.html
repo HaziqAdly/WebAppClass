@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Important Dates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      });
+    </script>
+    <style media="screen">
+      table,th,td,tr{
+        font-size: 18px;
+        margin: 0px 170px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        width:500px;
+        margin: 0px 100px;
+        background-color: #84f5da;
+      }
+
+      #header{
+        height: 650px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <img src="logo.png" id="logo" >
+
+    <ul class="link list">
+      <li><a href="Home.html">HOME</a></li>
+      <li class="dropdown">
+        <a href="#Submission">SUBMISSION</a>
+        <div class="dropdown-content">
+          <a href="CallforPaper.html">Call for Paper</a>
+          <a href="ImportantDates.html">Important Dates</a>
+          <a href="SubmissionGuideline.html">Submission Guideline</a>
+        </div></li>
+        <li class="dropdown">
+          <a href="#Programme">PROGRAMME</a>
+          <div class="dropdown-content">
+            <a href="Program.html">Programme Conference</a>
+            <a href="Parallel.html">Parallel Session</a>
+            <a href="Speaker.html">Keynote Speakers</a>
+          </div></li>
+        <li class="dropdown">
+          <a href="#Fee & Registration">FEE & REGISTRATION</a>
+          <div class="dropdown-content">
+            <a href="ConferenceFee.html">Conference Fee</a>
+            <a href="Registration.html">Registration</a>
+          </div></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+
+    </ul>
+
+    <img src="img3.png" alt="">
+
+    <div id="header">
+
+      <br>
+
+      <h1 align="center">IMPORTANT DATES</h1>
+
+      <br><br>
+
+      <table>
+
+        <tr>
+          <td>Full Paper Submission Deadline</td>
+          <td>1 November 2019</td>
+        </tr>
+
+        <tr>
+          <td>Acceptance Notifications</td>
+          <td>31 December 2019</td>
+        </tr>
+
+        <tr>
+          <td>Early Registration Deadline</td>
+          <td>10 January 2020</td>
+        </tr>
+
+        <tr>
+          <td>Camera Ready</td>
+          <td>31 January 2020</td>
+        </tr>
+
+        <tr>
+          <td>Conference</td>
+          <td>23 – 25 March 2020</td>
+        </tr>
+
+      </table>
+
+      <br><br>
+
+      <p>Date: <input type="text" id="datepicker"></p>
+
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+
+
+
+    </div>
+
+    <li id="copyright">Copyright © ICT4M. All right reserved.</li>
+
+  </body>
+</html>

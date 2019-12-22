@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>E-Conference Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+
+    table, th, tr{
+      border: 1px solid white;
+      border-collapse: collapse;
+      width: 700px;
+      margin: 0px 0px;
+    }
+
+      #header{
+        height: 900px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <img src="logo.png" id="logo" >
+
+    <ul class="link list">
+      <li><a href="Home.html">HOME</a></li>
+      <li class="dropdown">
+        <a href="#Submission">SUBMISSION</a>
+        <div class="dropdown-content">
+          <a href="CallforPaper.html">Call for Paper</a>
+          <a href="ImportantDates.html">Important Dates</a>
+          <a href="SubmissionGuideline.html">Submission Guideline</a>
+        </div></li>
+        <li class="dropdown">
+          <a href="#Programme">PROGRAMME</a>
+          <div class="dropdown-content">
+            <a href="Program.html">Programme Conference</a>
+            <a href="Parallel.html">Parallel Session</a>
+            <a href="Speaker.html">Keynote Speakers</a>
+          </div></li>
+        <li class="dropdown">
+          <a href="#Fee & Registration">FEE & REGISTRATION</a>
+          <div class="dropdown-content">
+            <a href="ConferenceFee.html">Conference Fee</a>
+            <a href="Registration.html">Registration</a>
+          </div></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+
+    </ul>
+
+    <img src="img3.png" alt="">
+
+    <div id="header"> <br>
+
+      <h1 align="center">E-CONFERENCE REGISTRATION</h1> <br>
+
+      <form class="" action="ReceivePayment.html" method="get">
+      <table>
+        <tr>
+          <th>Event Name:</th>
+          <th>International Conference on Information & Communication Technology for the Muslim World (ICT4M 2020)</th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Rate:</th>
+          <th>
+            <select>
+              <option value="1">Local Participant W/Out Paper</option>
+              <option value="2">Intl. Participant W/Out Paper</option>
+              <option value="3">Presenter (International)</option>
+              <option value="4">Presenter (Local)</option>
+              <option value="5">Student (Presenter)</option>
+              <option value="6">Intl. Student (Presenter)</option>
+              <option value="7">Exhibition</option>
+              <option value="8">Full-day Workshop (Non-Student)</option>
+              <option value="9">Mini Workshop (Non-Student)</option>
+              <option value="10">Presenter (additional 1 paper)</option>
+              <option value="11">Presenter (additional 2 papers)</option>
+              <option value="12">Full-day Workshop (Student)</option>
+              <option value="13">Mini Workshop (Student)</option>
+            </select>
+          </th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Participants<font color="red">*</font>:</th>
+          <th><input type="text" name="Full Name" placeholder="Full name" style="height: 20px;" size="23" required>
+              <input type="text" name="Designation" placeholder="Designation" style="height: 20px;" size="23" required></th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Amount (excl. GST):</th>
+          <th>RM 600.00</th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>GST Amount:</th>
+          <th>RM 0.00</th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Total Amount (incl. GST):</th>
+          <th>RM 600.00</th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Organization<font color="red">*</font>:</th>
+          <th><input type="text" name="Organization" style="height: 20px;" size="30" required></th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Contact No<font color="red">*</font>:</th>
+          <th><input type="text" name="Contact No" style="height: 20px;" size="30" required></th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Fax No:</th>
+          <th><input type="text" name="Fax No" style="height: 20px;" size="30"></th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Email<font color="red">*</font>:</th>
+          <th><input type="text" name="Email" style="height: 20px;" size="30" required></th>
+        </tr>
+        <tr>
+          <th>&nbsp</th>
+          <th>&nbsp</th>
+        </tr>
+        <tr>
+          <th>Payment Via<font color="red">*</font>:</th>
+          <th>
+            <label>Credit Card <br></label>
+            <input type="radio" name="pay" value="visa"><img src="visanmastercard.png"
+            style="width:60px; height:30px; margin:0px;"><br>
+            
+            <label>Debit Account <br></label>
+            <input type="radio" name="pay" value="fpx"><img src="fpx.jpg"
+            style="width:60px; height:40px; margin:0px;"><br><br>
+
+            <label for="Submit"></label>
+            <button type="submit" id="send">Submit</button> <br><br>
+          </th>
+        </tr>
+      </table>
+      </form>
+
+    </div>
+
+    <li id="copyright">Copyright © ICT4M. All right reserved.</li>
+
+    <script src="function.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      #header {
+        height: 700px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <img src="logo.png" id="logo" >
+
+    <ul class="link list">
+      <li><a href="Home.html">HOME</a></li>
+      <li class="dropdown">
+        <a href="#Submission">SUBMISSION</a>
+        <div class="dropdown-content">
+          <a href="CallforPaper.html">Call for Paper</a>
+          <a href="ImportantDates.html">Important Dates</a>
+          <a href="SubmissionGuideline.html">Submission Guideline</a>
+        </div></li>
+        <li class="dropdown">
+          <a href="#Programme">PROGRAMME</a>
+          <div class="dropdown-content">
+            <a href="Program.html">Programme Conference</a>
+            <a href="Parallel.html">Parallel Session</a>
+            <a href="Speaker.html">Keynote Speakers</a>
+          </div></li>
+        <li class="dropdown">
+          <a href="#Fee & Registration">FEE & REGISTRATION</a>
+          <div class="dropdown-content">
+            <a href="ConferenceFee.html">Conference Fee</a>
+            <a href="Registration.html">Registration</a>
+          </div></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+
+    </ul>
+
+    <img src="img2.png" alt="">
+
+    <div id="header">
+
+      <br>
+      <h1 align="center">CONTACT US</h1> <br>
+
+      Got a question? Contact us!<br>
+      Drop us a line below.<br><br>
+
+      <div id="info">
+          <input type="text" name="Full Name" placeholder="Full name" style="height: 30px;" size="30" required> <br><br>
+          <input type="text" name="Email Address" placeholder="Email address" style="height: 30px;" size="30" required> <br><br>
+          <input type="text" name="Country" placeholder="Country" style="height: 30px;" size="30" required> <br><br>
+          <input type="text" name="Subject" placeholder="Subject" style="height: 30px;" size="30" required> <br><br>
+
+          <textarea name="Message" rows="8" cols="29" placeholder="Your question" required></textarea> <br><br>
+
+        <div>
+          <label for="Send"></label>
+          <button onclick="window.location.href = 'Thanks.html'; respond()" type="button" name="Send" id="send">Send</button> <br><br>
+        </div>
+      </div>
+
+      <button class="open-button" onclick="openForm()">Chat</button>
+
+      <div class="chat-popup" id="myForm">
+        <form action="Thanks.html" class="form-container">
+          <h1>Chat</h1>
+
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <div id="secretariat">
+        <b>SECRETARIAT OF ICT4M 2020</b> <br>
+
+        Kuliyyah of Information and Communication Technology (KICT), <br>
+        International Islamic University Malaysia (IIUM), Jalan Gombak, <br>
+        53100 Kuala Lumpur, Malaysia. <br><br>
+
+        Email : ict4m@iium.edu.my <br>
+        Website : https://ict4m.iium.edu.my <br>
+        Tel : +603-6196 5601 <br>
+        Fax : +603-6196 5971 <br><br>
+          <img src="email.gif" alt="Email" id="gif">
+      </div>
+
+    </div>
+
+    <li id="copyright">Copyright © ICT4M. All right reserved.</li>
+
+    <script src="function.js"></script>
+  </body>
+</html>

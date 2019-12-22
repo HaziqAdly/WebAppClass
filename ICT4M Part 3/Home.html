@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ICT4M</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+      #header{
+        height:550px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <img src="logo.png" id="logo" >
+
+    <ul class="link list">
+      <li><a href="Home.html">HOME</a></li>
+      <li class="dropdown">
+        <a href="#Submission">SUBMISSION</a>
+        <div class="dropdown-content">
+          <a href="CallforPaper.html">Call for Paper</a>
+          <a href="ImportantDates.html">Important Dates</a>
+          <a href="SubmissionGuideline.html">Submission Guideline</a>
+        </div></li>
+        <li class="dropdown">
+          <a href="#Programme">PROGRAMME</a>
+          <div class="dropdown-content">
+            <a href="Program.html">Programme Conference</a>
+            <a href="Parallel.html">Parallel Session</a>
+            <a href="Speaker.html">Keynote Speakers</a>
+          </div></li>
+        <li class="dropdown">
+          <a href="#Fee & Registration">FEE & REGISTRATION</a>
+          <div class="dropdown-content">
+            <a href="ConferenceFee.html">Conference Fee</a>
+            <a href="Registration.html">Registration</a>
+          </div></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+
+    </ul>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="img1.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img2.png">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img3.png">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img4.png">
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div id="header">
+
+      <br><br>
+
+      <script>
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").fadeToggle();
+          });
+      });
+      </script>
+
+      <div id="flip">
+        <button type="button" id="clock"
+        onclick="document.getElementById('time').innerHTML = Date()">
+        Date and Time</button>
+      </div>
+
+      <br><br>
+
+      <div id="panel">
+        <p id="time"></p>
+      </div>
+
+      <br><br>
+
+      <h1 align="center">ICT4M 2020</h1>
+
+      <p>ICT4M 2020 is a conference that gathers academicians, researchers, practitioners, professionals,
+      and students to address the challenges of Information and Communication Technology (ICT) for
+      the Muslim world. This conference has been conducted seven times so far with the most recent
+      location in Kuala Lumpur, Malaysia on 23-25 March 2020.
+
+      <br><br>
+      In conjunction with the World Congress on Integration and Islamicization, ICT4M 2020 will be
+      held on 27-29 March 2020 in Kuantan, Pahang. The theme for this year is “Mental Health and
+      Well Being in the 4th Industrial Revolution”.
+
+      <br><br>
+      All accepted papers will be submitted for indexing in IEEE Xplore. Selected papers will be invited
+      for publications in Scopus journals</p>
+
+    </div>
+
+    <li id="copyright">Copyright © ICT4M. All right reserved.</li>
+
+    <script src="function.js"></script>
+  </body>
+</html>
