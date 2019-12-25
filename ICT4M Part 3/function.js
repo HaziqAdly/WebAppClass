@@ -22,7 +22,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//Notification Payment
+//Notification Respond
 function respond() {
   alert("Your respond have been received!");
 }
